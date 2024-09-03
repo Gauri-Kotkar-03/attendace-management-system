@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main.table{
+    width: 82vw;
+    height: 90vh;
+    background-color: #fff;
+    backdrop-filter: none;
+}
+.table_body{
+    width: 95%;
+    max-height: calc(89% -.8rem);
+    background-color: #fff;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+}
+.table,th,td{
+    padding: 1rem;
+}
+

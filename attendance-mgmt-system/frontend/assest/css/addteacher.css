@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px;
+}
+
+.scrollbox{
+    overflow:auto
+}
+.scrollbox-inner{
+    font-size: 16px;
+    color:#fff;
+}
+
+.clearfix{
+    clear: both;
+
+}
+.logo{
+    margin: 0px;
+    margin-left: 28px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.logo span{
+    color:#f7403b;
+
+}
+.sidenav{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272c4a;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.sidenav button{
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+.sidenav a{
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav button:hover{
+    color: #f1f1f1;
+    background-color: #1b203d;
+}
+.sidenav a{
+    background-color: #272c4a;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+    background-color: #1b203d;
+}
+
+.container{
+    
+    min-height: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(/project/bg.jpg)no-repeat center; */
+    background: transparent;
+}
+.container form{
+    margin-left: 320px;
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    /* background: rgba(255,255,255,0.1); */
+    flex-wrap: wrap;
+    background-color: #272c4a;
+}
+.container form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+
+}
+/* .container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+} */
+
+.container .ipstyle{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.container form span{
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background: none;
+    color: #fff;
+}
+
+.container .radios{
+    
+    
+    width: 30px;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 17px;
+    margin-left: 7px;
+    
+}
+.container .radio{
+    
+    margin-left: 350px;
+   width: 14px;
+  
+
+}
+
+.container form  input::placeholder{
+    color: #ddd;
+}
+.container form #lastName,
+.container form #mobile{
+    margin-left: 20px;
+
+}
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid#fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    min-height: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194, 0.713);
+}
+.container form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.container form #button:hover{
+    opacity: 0.7;
+}
+.container form select
+{
+    margin-left: 20px;
+    width: 300px;
+    height: 40px;
+    background-color:#fff;
+
+}
+.container form [type=radio]{
+    margin-left: 100px;
+    padding: 0;
+    
+    
+    
+}
+
